@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
-  s.source       = { :git => "https://github.com/YuanJiaShuai/eros-plugin-ios-baseLibrary.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/YuanJiaShuai/eros-plugin-ios-baseLibrary.git"}
   s.requires_arc = true
   
   s.dependency 'YYText', '1.0.7'
   s.dependency 'Masonry', '1.1.0'
   s.dependency 'YYModel', '1.0.4'
   s.dependency 'SSZipArchive', '2.2.2'
-  s.dependency 'YTKNetwork', '3.0.0'
+  s.dependency 'YTKNetwork', '~> 3.0.0'
   s.dependency 'SocketRocket', '0.5.1'
   s.dependency 'SDWebImage', '5.0.6'
   s.dependency 'MJRefresh', '3.2.0'
